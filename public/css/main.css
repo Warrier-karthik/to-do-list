@@ -1,0 +1,92 @@
+.middle {
+    background-color: rgb(204, 190, 40);
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+body {
+   background-color: rgb(92, 92, 93);
+   
+}
+.date {
+    font-family: 'Agency FB';
+    color: rgb(76, 74, 74);
+    font-size: 50px;
+    padding: 10px;
+}
+.addTask {
+    text-align: center;
+    margin-left: 340px;
+    margin-right: auto;
+}
+
+.btn {
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+    width: 70px;
+    border-radius: 23px;
+    border: none;
+    background-color: rgb(204, 190, 40);
+}
+
+.btn:hover {
+    text-align: center;
+    height: 50px;
+    width: 70px;
+    border-radius: 23px;
+    border: none;
+    background-color: rgb(239, 215, 1);
+}
+
+.name {
+    height: 30px;
+    width: 400px;
+    border: none;
+    background-color: rgb(92, 92, 93);
+    border-bottom: 2px solid rgb(239, 215, 1);
+    font-family: 'Agency FB';
+    font-size: 30px;
+    color: rgb(239, 215, 1);
+    
+}
+
+::placeholder {
+    color: rgb(239, 215, 1);
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tasklist {
+    width: 300px;
+    height: 35px;
+    font-family: 'Agency FB';
+    font-size: 30px;
+    background-color: rgb(92, 92, 93);
+    color: rgb(239, 215, 1);
+}
+
+.time {
+    height: 120px;
+    background-color: rgb(239, 215, 1);
+    width: 240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.tme {
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+    font-family: 'Agency FB';
+    font-size: 30px;
+}
