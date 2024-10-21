@@ -7,4 +7,4 @@ router.get('/', (req, res) => {
     res.render('index.ejs', {mnt: month[date.getMonth()]+' '+date.getDate()})
 })
 
-module.exports = router
+module.exports = router 

@@ -1,10 +1,10 @@
 const express = require('express')
-
+const mongoose = require('mongoose')
 const app = express()
 
 const indexRouter = require('./route/index.js')
 const taskRouter = require('./route/newtask.js')
-
+mongoose.connect('mongodb://localhost/tasks')
 const port = 3000
 
 app.use(express.static('public'))
