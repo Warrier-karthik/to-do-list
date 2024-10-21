@@ -123,3 +123,11 @@ body {
     font-family: 'Agency FB';
     font-size: 30px;
 }
+.tm {
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    font-size: 30px;
+    font-family: 'Agency FB';
+}
