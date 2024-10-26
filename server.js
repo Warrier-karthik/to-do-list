@@ -7,6 +7,7 @@ const taskRouter = require('./route/newtask.js')
 mongoose.connect('mongodb://localhost/tasks')
 const port = 3000
 
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'))
 app.set('view engine', 'ejs')
 
