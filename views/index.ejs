@@ -9,11 +9,28 @@
 <body>
     <div class="middle">
         <h1 class="date"><%- mnt %></h1>
+        <h1 class="day"><%- day %></h1>
+        <div class="scrollable">
+            <% tasks.forEach((element) => { %>
+                <% if (element.TaskType === "reminder") { %>
 
+                    <h1 class="titles" style="background-color:RGB(101, 105, 83);  color:rgb(239, 215, 1);"><%= index  %>.<%= element.title %></h1>
+                <% } %>
+                <% if (element.TaskType === "simpleTask") { %>
+                    <h1 class="titles" ><%= index  %>.<%= element.title %></h1>
+                <% } %>
+                <% if (element.TaskType === "complexTask") { %>
+                    <h1 class="titles" style="background-color:rgb(204, 102, 51) ;   color:rgb(239, 215, 1);"><%= index  %>.<%= element.title %></h1>
+                <% } %>
+                <% index += 1 %>
+            <% }) %>
+        </div>
+        <br>
+        <div class="addTask">
+            <a href='/new'><button class="btn">+</button></a>
+        </div>
     </div>
     <br>
-    <div class="addTask">
-        <a href='/new'><button class="btn">+</button></a>
-    </div>
+    
 </body>
 </html>
